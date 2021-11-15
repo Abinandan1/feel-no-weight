@@ -918,6 +918,7 @@ Single Page
 .input h3 {
   font-size: 1.25rem;
   margin-bottom: 0.6rem;
+  display: inline-block;
 }
 .input input {
   border: transparent;
@@ -925,7 +926,10 @@ Single Page
   background: var(--clr-grey-10);
   padding: 0.375rem 0.75rem;
   width: 100%;
-  box-shadow: var(--light-shadow);
+  /* box-shadow: var(--light-shadow); */
+}
+.required {
+  color: red;
 }
 .input textarea {
   border: transparent;
@@ -933,7 +937,7 @@ Single Page
   background: var(--clr-grey-10);
   padding: 0.375rem 0.75rem;
   width: 100%;
-  box-shadow: var(--light-shadow);
+  /* box-shadow: var(--light-shadow); */
 }
 .input input::placeholder {
   color: var(--clr-grey-5);
@@ -942,6 +946,9 @@ Single Page
 .input textarea::placeholder {
   color: var(--clr-grey-5);
   text-transform: capitalize;
+}
+.contact-title {
+  margin-bottom: 2rem;
 }
 /*
 =============== 

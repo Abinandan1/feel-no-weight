@@ -38,18 +38,22 @@
       <div class="nav-center">
         <!-- nav header -->
         <div class="nav-header">
-          <img
-            src="./logo/logo3.jpg"
-            class="nav-logo logo1"
-            id="logo1"
-            alt=""
-          />
-          <img
-            src="./logo/logo1.jpg"
-            class="nav-logo logo2"
-            id="logo2"
-            alt=""
-          />
+          <a href="index.html">
+            <img
+              src="./logo/logo3.jpg"
+              class="nav-logo logo1"
+              id="logo1"
+              alt=""
+            />
+          </a>
+          <a href="index.html">
+            <img
+              src="./logo/logo1.jpg"
+              class="nav-logo logo2"
+              id="logo2"
+              alt=""
+            />
+          </a>
           <button class="nav-btn" id="nav-btn">
             <i class="fas fa-bars"></i>
           </button>
@@ -124,7 +128,7 @@
     <!-- contact -->
     <section class="single-page section">
       <!-- section title -->
-      <div class="section-title projects-title">
+      <div class="section-title contact-title">
         <h2>contact</h2>
         <div class="underline"></div>
       </div>
@@ -137,12 +141,12 @@
           <input type="text" name="name" placeholder="name">
           </div>
           <div class="input">
-            <h3>email</h3>
-          <input type="email" name="email" placeholder="email">
+            <h3>email</h3><span class="required"><sup>*</sup></span>
+          <input type="email" name="email" placeholder="email" required>
           </div>
           <div class="input">
-            <h3>description</h3>
-          <textarea name="description" id="" cols="30" rows="10" placeholder="description"></textarea>
+            <h3>description</h3><span class="required"><sup>*</sup></span>
+          <textarea name="description" id="" cols="30" rows="8" placeholder="description" required></textarea>
           </div>
           <button type="submit" class="btn">submit</button>
         </form>
